@@ -51,7 +51,7 @@ const Register = () => {
       setIsLoading(false);
     }
   };
-
+ 
   return (
     <div className="flex justify-center items-center min-h-[80vh]">
       <div className="glassmorphism p-8 w-full max-w-md">
