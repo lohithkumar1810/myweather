@@ -1,15 +1,21 @@
 {
   "name": "admin-panel",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is admin panel",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "raghumanjesh29-arch"
+  },
+  "license": "MIT",
+  "author": "Raghu",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "axios": "^1.13.6",
     "bcrypt": "^6.0.0",
@@ -17,6 +23,7 @@
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
-    "mongoose": "^9.3.0"
+    "mongoose": "^9.3.0",
+    "nodemon": "^3.1.14"
   }
 }
