@@ -1,4 +1,6 @@
 node_modules
 .env
 backend/.env
+backend/.env.example
 admin-panel/.env
+frontend/.env.example
